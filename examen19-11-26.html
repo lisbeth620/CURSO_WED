@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard - Gestión TI</title>
+    <link rel="stylesheet" href="estilo19-11-26.css">
+</head>
+<body>
+
+    <div class="dashboard">
+
+        <aside class="sidebar">
+            <div class="sidebar-header">
+                <h2>GESTIÓN TI</h2>
+                <p>Panel administrativo</p>
+            </div>
+
+            <nav class="menu">
+                <a href="#" class="activo">🏠 Inicio</a>
+                <a href="#">👥 Usuarios</a>
+                <a href="#">💻 Equipos</a>
+                <a href="#">📊 Reportes</a>
+                <a href="#">🔧 Mantenimiento</a>
+                <a href="#">⚙️ Configuración</a>
+            </nav>
+
+            <div class="sidebar-footer">
+                <p>APSTI GAC - Sistema de Gestión TI</p>
+                <span>Versión 1.0</span>
+            </div>
+        </aside>
+
+        <main class="contenido">
+
+            <header class="topbar">
+                <div>
+                    <h1>Panel de Administración</h1>
+                    <p>Bienvenido al sistema de gestión tecnológica</p>
+                </div>
+                <div class="usuario">
+                    <span class="avatar">AD</span>
+                    <div class="usuario-info">
+                        <strong>Administrador</strong>
+                        <small>Soporte TI</small>
+                    </div>
+                </div>
+            </header>
+
+            <section class="contenedor-principal">
+                <h2>Resumen general</h2>
+                <p class="descripcion-seccion">Desde este panel puedes supervisar los equipos informáticos y las incidencias técnicas.</p>
+
+                <div class="contenedor-tarjetas">
+
+                    <div class="tarjeta borde-azul">
+                        <div class="icono">💻</div>
+                        <h3 class="titulo">Total de equipos</h3>
+                        <p class="numero">120</p>
+                        <p class="subtitulo">Equipos registrados</p>
+                    </div>
+
+                    <div class="tarjeta borde-verde">
+                        <div class="icono">✔️</div>
+                        <h3 class="titulo">Equipos operativos</h3>
+                        <p class="numero">95</p>
+                        <p class="subtitulo">En funcionamiento</p>
+                    </div>
+
+                    <div class="tarjeta borde-naranja">
+                        <div class="icono">🔧</div>
+                        <h3 class="titulo">En mantenimiento</h3>
+                        <p class="numero">15</p>
+                        <p class="subtitulo">Requieren atención</p>
+                    </div>
+
+                    <div class="tarjeta borde-rojo">
+                        <div class="icono">⚠️</div>
+                        <h3 class="titulo">Incidencias pendientes</h3>
+                        <p class="numero">10</p>
+                        <p class="subtitulo">Por resolver</p>
+                    </div>
+
+                    <div class="tarjeta borde-morado">
+                        <div class="icono">📦</div>
+                        <h3 class="titulo">Equipos Obsoletos</h3>
+                        <p class="numero">5</p>
+                        <p class="subtitulo">Para dar de baja</p>
+                    </div>
+                    
+
+                </div>
+            </section>
+
+            <section class="contenedor-tabla">
+                <h2>Últimos equipos registrados</h2>
+
+                <div class="tabla-scroll">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Código</th>
+                                <th>Fecha de Ingreso</th>
+                                <th>Equipo</th>
+                                <th>Área</th>
+                                <th>Estado</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>EQ-001</td>
+                                <td>12/05/2025</td>
+                                <td>Computadora Dell</td>
+                                <td>Administración</td>
+                                <td><span class="estado operativo">Operativo</span></td>
+                            </tr>
+                            <tr>
+                                <td>EQ-002</td>
+                                <td>18/08/2025</td>
+                                <td>Laptop HP</td>
+                                <td>Contabilidad</td>
+                                <td><span class="estado mantenimiento">Mantenimiento</span></td>
+                            </tr>
+                            <tr>
+                                <td>EQ-003</td>
+                                <td>04/02/2026</td>
+                                <td>Computadora Lenovo</td>
+                                <td>Informática</td>
+                                <td><span class="estado operativo">Operativo</span></td>
+                            </tr>
+                            <tr>
+                                <td>EQ-004</td>
+                                <td>10/11/2026</td>
+                                <td>Impresora Epson</td>
+                                <td>Secretaría</td>
+                                <td><span class="estado pendiente">Pendiente</span></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <p>© 2026 APSTI GAC - Todos los derechos reservados | <strong>Insertar aquí su nombre</strong></p>
+            </footer>
+
+        </main>
+
+    </div>
+
+</body>
+</html>
+
+
+
+
